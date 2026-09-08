@@ -35,7 +35,7 @@ pip install -r assignment/requirements.txt
 在仓库根目录执行：
 
 ```bash
-python -m pytest assignment/module2/tests -v
+python -m pytest -v
 ```
 
 ## Git 分支约定
