@@ -56,4 +56,4 @@ if calendar_diff.days > 14:
 
 - 修复分支：`fix/ai-defect-001-humanize-16-days`
 - 验证方式：修复后在仓库根目录执行 `python -m pytest -v`
-- 期望结果：AI-HUMAN-003 由失败变为通过，其余用例不回归
+- 验证结果：AI-HUMAN-003 由失败变为通过，全部 25 条用例通过，无回归
